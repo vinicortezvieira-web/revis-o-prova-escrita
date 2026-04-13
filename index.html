@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,31 +7,53 @@
 </head>
 <body>
     <div class="grupo">
-    <header class="cabecalho">
-       <h1>Site de Revisão</h1>
-       <ul>
-           <li>Início</li>
-           <li>Sobre</li>
-           <li>Contato</li>
-       </ul>
-    </header>
-    <nav class="navegacao">
-        <h2>Menu Lateral</h2>
-        <a href="#">Perfil</a>
-        <a href="#">Configurações</a>
-        <a href="#">Ajuda</a>
-    </nav>
-    <section class="secao">
-        <h2>Painel do Usuário</h2>
-        <P>Nome: Arthur Maximino</P>
-        <P>Curso: Desenvolvimento de sistemas</P>
-        <P>Status: Ativo</P>
-    </section>
-    <footer class="rodape">
-        <p>&copy; Desenvolvido por <strong>Vinícius Cortez</strong></p>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Ícone do instagram">Instagram</a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="Ícone do github">Github</a>
-    </footer>
+        <header class="cabecalho">
+            <h1>Site de revisão</h1>
+            <nav class="menu">
+                <a href="#">Inicios</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contatos</a>
+            </nav>
+        </header>
+        <div class="conteudo">
+            <nav class="navegacao">
+                <h2>Menu lateral</h2>
+               <ul>
+                <li>Perfil</li>
+                <li>Configurações</li>
+                <li>Ajuda</li>
+               </ul>
+            </nav>
+            <section class="secao">
+                <h2>Painel do Usuário</h2>
+                <p>Nome: Vinícius Cortez</p>
+                <p>Curso: Desenvolvimento de Sistemas</p>
+                <p>Status: Ativo</p>
+                <hr>
+                <h3>Alrterar Nome</h3>
+                <div class="formulario">
+                    <input type="text" name="inputNome" id="inputNome">
+                    <button onclick="alterarNome()">alterar</button>
+                </div>
+
+                <h3>Alrterar Curso</h3>
+                <div class="formulario">
+                    <input type="text" name="inputNome" id="inputNome">
+                    <button onclick="alterarCurso()">alterar</button>
+                </div>
+
+                <h3>Alrterar Status</h3>
+                <div class="formulario">
+                    <input type="text" name="inputNome" id="inputNome">
+                    <button onclick="alterarStatus()">alterar</button>
+                </div>
+            </section>
+        </div>
+        <footer class="rodape">
+            <p>&copy; Desenvolvido por <strong>Vinícius Cortez</strong></p>
+            <div class="redes">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Icone do Instagram">Instagram</a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="Icone do Github">Github</a>
+            </div>
+        </footer>
     </div>
-</body>
-</html>
